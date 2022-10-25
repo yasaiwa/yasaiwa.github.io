@@ -89,3 +89,5 @@
   font-style: normal;
 }
 
+[aria-label="Voice"] svg {
+    background-image: var(--speaker-icon); }

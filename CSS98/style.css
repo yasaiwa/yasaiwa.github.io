@@ -68,9 +68,6 @@
   --border-field: inset -1px -1px var(--button-highlight),
     inset 1px 1px var(--button-shadow), inset -2px -2px var(--button-face),
     inset 2px 2px var(--window-frame);
-  
-  /*Icons*/
-  --speaker-icon: url("icons/loudspeaker_rays-1.png");
 }
 
 @font-face {
@@ -88,6 +85,3 @@
   font-weight: bold;
   font-style: normal;
 }
-
-[aria-label="Voice"] svg {
-    background-image: var(--speaker-icon); }
